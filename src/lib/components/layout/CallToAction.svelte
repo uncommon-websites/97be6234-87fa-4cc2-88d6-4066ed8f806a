@@ -50,11 +50,14 @@
 
 	// Props
 	const {
-		title = "Get started today",
-		subtitle = "Join now",
-		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
-		imageSrc = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-		callsToAction = [cta],
+		title = "Join us in empowering essential workers",
+		subtitle = "Help us build a future where every essential worker thrives.",
+		description = "We’re a team of builders, operators, and dreamers who believe no skilled worker should leave a job because of money stress. At Tanda, we’re creating meaningful tools for the people who keep the world running—on job sites, shop floors, and kitchen lines. If that mission drives you too, we’d love to meet you. Whether you’re looking to join the team or just want to say hello, reach out.",
+		imageSrc = "/generated/image-a-diverse-team-of-professionals-smiling-.webp",
+		callsToAction = [
+		  { href: "/careers", label: "See open roles", variant: "primary" },
+		  { href: "/contact", label: "Contact us", variant: "secondary" }
+		],
 		...rest
 	}: {
 		title?: string;

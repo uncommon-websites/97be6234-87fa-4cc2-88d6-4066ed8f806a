@@ -23,22 +23,22 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+  {
+    title: "Real impact, fast",
+    description: "Solve real-world problems for the teams that keep the world running—construction, manufacturing, and restaurants.",
+    icon: IconBriefcase,
+  },
+  {
+    title: "Work with world-class founders",
+    description: "Join leaders from Expedia, Yahoo, and Splunk and build for scale, backed by Sequoia and Initialized.",
+    icon: IconUsers,
+  },
+  {
+    title: "High trust, high agency",
+    description: "Make decisions that move the business. Shape our early direction with lots of ownership and growth.",
+    icon: IconHeart,
+  },
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,78 +121,88 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Maria Gutierrez",
+    position: "Operations Associate",
+    company: "Construction Team",
+    quote:
+      "From my first week, everyone made me feel welcome and supported. My manager checked in often, and mentors helped me grow quickly. It’s a place where everyone has your back.",
+    image:
+      "/generated/image-a-hispanic-woman-dressed-in-construction.webp"
+  },
+  {
+    name: "Darius Carter",
+    position: "Engineering Manager",
+    company: "Product & Technology",
+    quote:
+      "At Tanda, mentorship and growth go hand-in-hand with bold projects. Leadership truly listens and invests in your development, pushing you to reach your full potential.",
+    image:
+      "/generated/image-a-black-man-wearing-a-smart-casual-outfi.webp"
+  },
+  {
+    name: "Vivian Liu",
+    position: "Head of People",
+    company: "People Operations",
+    quote:
+      "There’s a spirit of inclusion here you can feel every day. I’ve never worked anywhere that cares so deeply about making an impact for employees and the customers we serve.",
+    image:
+      "/generated/image-an-east-asian-woman-dressed-in-business-.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Submit your application",
+    description: "Apply online—each application is reviewed by our team.",
+  },
+  {
+    step: 2,
+    title: "Intro call",
+    description: "Quick chat with a team member to get to know each other.",
+  },
+  {
+    step: 3,
+    title: "Skills interview",
+    description: "A hands-on challenge or role-specific interview so you can show your strengths.",
+  },
+  {
+    step: 4,
+    title: "Meet the founders",
+    description: "Talk with Jesse or a co-founder to align on fit and impact.",
+  },
+  {
+    step: 5,
+    title: "Offer & feedback",
+    description: "References and a decision, usually within a week. We'll keep you updated the whole time—no ghosting.",
+  },
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+  {
+    icon: IconHeart,
+    title: "No ego, just impact",
+    description: "We focus on making essential jobs better—what matters is the result, not your title.",
+  },
+  {
+    icon: IconUsers,
+    title: "Clear is kind",
+    description: "We value direct feedback, honesty, and transparency. Simplicity makes us stronger.",
+  },
+  {
+    icon: IconGlobe,
+    title: "Frontline voices matter",
+    description: "We listen to people closest to the work and build together—from every background and experience.",
+  },
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+  title="Personalized care for essential workers"
+  subtitle="Join a team where impact meets purpose. Experience a culture built on camaraderie, support, and meaningful work that helps companies and their people thrive."
+  imageSrc="/generated/image-a-diverse-group-of-people-are-working-to.webp"
 />
 
 <!-- Why Join Us Section -->

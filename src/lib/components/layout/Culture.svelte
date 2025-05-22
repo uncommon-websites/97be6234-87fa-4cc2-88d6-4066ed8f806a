@@ -10,7 +10,28 @@
 	};
 
 	// Props
-	const { values = [] }: { values: Value[] } = $props();
+	const { values = [
+  {
+    title: 'People over pedigree',
+    description: 'We welcome team members from all backgrounds. What matters most is heart, action, and purpose.'
+  },
+  {
+    title: 'Purpose in practice',
+    description: 'Every feature and benefit is designed to make life better for essential workers—and their families.'
+  },
+  {
+    title: 'Community roots',
+    description: 'Inspired by community savings circles, we believe everyone succeeds when support is shared.'
+  },
+  {
+    title: 'Direct and real',
+    description: 'We act fast, learn out loud, and keep our teams close to customer needs, not corporate trends.'
+  },
+  {
+    title: 'Built together',
+    description: 'No idea is too small to shape Tanda’s future—and every voice is not just heard, but valued.'
+  }
+]: { values: Value[] } = $props();
 
 	let cards: HTMLElement[] = $state([]);
 

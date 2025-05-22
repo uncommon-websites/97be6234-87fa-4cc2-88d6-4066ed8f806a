@@ -53,107 +53,106 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Tanda helps companies retain and engage essential workers with personalized benefits focused on financial wellness. Our platform makes it easy for your teams to set savings goals, earn employer matches, and feel truly valued at work."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Eduardo Montes",
+			position: "Site Manager, Mesa Ridge Construction",
+			quote: "Tanda cut our admin time on incentives and bonuses. Now, I’m on-site with the crew—not buried in paperwork.",
+			image: "/generated/image-a-male-construction-site-manager-in-a-sa.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Mabel Choi",
+			position: "HR Manager, Paragon Manufacturing",
+			quote: "We used to stress every exit interview. With Tanda, retention’s up and scheduling headaches are down. The team actually feels heard.",
+			image: "/generated/image-a-female-hr-manager-with-a-warm-smile-en.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Tariq Ford",
+			position: "Crew Lead, Urban Fork Diner",
+			quote: "We spend less bringing in new hires. Peer bonuses keep the team happy, and regulars are seeing the same faces again.",
+			image: "/generated/image-a-male-crew-lead-in-a-casual-uniform-pos.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="What makes Tanda different"
+	subtitle="Everything you need to keep essential workers loyal—and thriving."
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Personalized matched savings",
+			description: "Let employees choose meaningful savings goals—like certifications or emergencies—and match their progress to keep them motivated."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Peer and manager recognition",
+			description: "Make great work visible with instant shout-outs and rewards straight from any device—no logins required."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Real-time pulse surveys",
+			description: "Spot problems early with SMS-driven check-ins and feedback before issues spiral into turnover."
+		},
+		{
+			title: "Data-driven retention insights",
+			description: "Unlock actionable analytics on turnover, morale, and compensation so you can make smarter HR decisions."
+		},
+		{
+			title: "Built for high-turnover industries",
+			description: "Tailored for construction, manufacturing, and restaurants—no one-size-fits-all solutions here."
+		},
+		{
+			title: "Enterprise impact, proven ROI",
+			description: "Achieve up to 10x return over traditional benefits by minimizing churn and boosting engagement from day one."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
+	subtitle="Real-world impact for every industry we serve"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Retain your best crews in construction",
+			description: "Match savings on safety certifications, tools, and more. Reduce turnover by aligning employee goals to project milestones, keeping crews stable from bid to build.",
+			image: "/generated/image-a-group-of-construction-workers-gathered.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/construction-retention",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Reduce manufacturing turnover where it matters most",
+			description: "Personalized financial wellness tools and team engagement for plants. Retain skilled operators and cut costly first-90-day churn with real-time insights and matched savings.",
+			image: "/generated/image-in-a-bustling-manufacturing-plant-a-dive.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/manufacturing-engagement",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Build restaurant loyalty with life goal benefits",
+			description: "Help FOH and BOH staff save for what matters most. Combine flexible savings plans, manager recognition, and peer bonuses to keep your team strong and stable.",
+			image: "/generated/image-restaurant-staff-gathered-in-a-cozy-and-.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/restaurant-loyalty",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="Keep your crew. Cut the churn."
+  subtitle="Retention starts before resignation."
+  description="Tanda helps construction, manufacturing, and restaurant teams keep skilled workers with matched savings goals and real-time engagement insight. Give essential employees a benefit that matters—before they think about leaving."
+  imageSrc="/generated/image-a-cheerful-construction-worker-wearing-a.webp"
+  callsToAction={[
+    { href: "/demo", label: "See it in action", variant: "primary" },
+    { href: "/contact", label: "Talk to our team", variant: "secondary" }
+  ]}
+/>

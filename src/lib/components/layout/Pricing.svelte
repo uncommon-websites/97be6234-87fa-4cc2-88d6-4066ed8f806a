@@ -35,116 +35,116 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Plans designed for real employee impact",
+		subtitle = "Pick the retention toolkit that fits your workforce",
+		tierNames = ["Core", "Plus", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Matched savings plan",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Core: "Up to $25/worker/mo matched",
+					Plus: "Up to $50/worker/mo matched",
+					Enterprise: "Custom limits"
+				}
+			},
+			{
+				name: "Number of employees covered",
+				tiers: {
+					Core: "Up to 99",
+					Plus: "Up to 499",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Custom savings goals",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
+					Core: true,
+					Plus: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Engagement tools (recognition, peer bonuses)",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Core: false,
+					Plus: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Pulse surveys & engagement insights",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Core: false,
+					Plus: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Admin dashboard & analytics",
+				tiers: {
+					Core: "Basic",
+					Plus: "Advanced",
+					Enterprise: "Company-wide, exportable"
+				}
+			},
+			{
+				name: "Integration with payroll/HRIS",
+				tiers: {
+					Core: false,
+					Plus: false,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Custom reporting & onboarding support",
+				tiers: {
+					Core: false,
+					Plus: false,
+					Enterprise: true
 				}
 			},
 			{
 				name: "Support response time",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Core: "8 business hours",
+					Plus: "2 business hours",
+					Enterprise: "1 hour SLA"
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Core",
+				monthlyPrice: 199,
+				yearlyPrice: 159, // 20% savings
+				description: "Financial wellness for small to mid-sized teams.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"Matched savings plan (up to $25/worker/month)",
+					"Custom savings goals",
+					"Basic admin dashboard",
+					"Email support (8 business hours)"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Start with Core",
+					href: "/signup?plan=core"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Plus",
+				monthlyPrice: 499,
+				yearlyPrice: 399, // 20% savings
+				description: "Engage, recognize, and retain across larger frontline workforces.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"Everything in Core",
+					"Larger matched savings ($50/worker/month)",
+					"Recognition & peer bonuses",
+					"Pulse surveys & insights",
+					"Advanced analytics dashboard",
+					"Email support (2 business hours)"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Upgrade to Plus",
+					href: "/signup?plan=plus"
 				},
 				highlight: true
 			},
@@ -152,15 +152,14 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "Tailored deployments and workforce insights for complex organizations.",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Everything in Plus",
+					"Unlimited employees & custom match limits",
+					"Integration with payroll/HRIS",
+					"Custom onboarding & reporting",
+					"Company-wide analytics exports",
+					"Priority support (1-hour SLA)"
 				],
 				cta: {
 					label: "Contact sales",
