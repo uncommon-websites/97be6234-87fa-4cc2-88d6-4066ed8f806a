@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="Keep your best workers longer"
+  subtitle="Reduce turnover with a benefit your teams actually use—matched savings goals built for essential workers."
+  customers={[
+    {
+      name: "Maria Gonzalez",
+      position: "Construction Site Manager",
+      imageSrc: "/generated/image-a-female-construction-site-manager-weari.webp"
+    },
+    {
+      name: "Tom Nguyen",
+      position: "Manufacturing Plant Supervisor",
+      imageSrc: "/generated/image-a-male-plant-supervisor-stands-confident.webp"
+    },
+    {
+      name: "Rebecca Smith",
+      position: "Restaurant General Manager",
+      imageSrc: "/generated/image-a-female-restaurant-general-manager-stan.webp"
+    },
+    {
+      name: "Carlos Hernandez",
+      position: "Crew Lead",
+      imageSrc: "/generated/image-a-male-crew-lead-in-a-construction-unifo.webp"
+    },
+    {
+      name: "Priya Patel",
+      position: "HR Director",
+      imageSrc: "/generated/image-a-female-hr-director-in-business-attire-.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		"https://logo.clearbit.com/turnerconstruction.com",
+		"https://logo.clearbit.com/bechtel.com",
+		"https://logo.clearbit.com/honeywell.com",
+		"https://logo.clearbit.com/mcdonalds.com"
+	]}
+/>
 
 <Summary
 	generating
